@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+    <property scope="context" name="kacera_config_folder" value="/cma/009_MiniUber/02Desarrollo/09Fuentes/server-properties/config" />
+    <property file="${kacera_config_folder}/transpselva-access-logback.properties" />
+    <include file="${kacera_config_folder}/logback.xml"/>
+</configuration>

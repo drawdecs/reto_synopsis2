@@ -1,0 +1,15 @@
+Index: src/main/java/pe/com/cma/apiaccess/repository/ClientRepository.java
+===================================================================
+diff --git a/src/main/java/pe/com/cma/apiaccess/repository/ClientRepository.java b/src/main/java/pe/com/cma/apiaccess/repository/ClientRepository.java
+deleted file mode 100644
+--- a/src/main/java/pe/com/cma/apiaccess/repository/ClientRepository.java	(date 0)
++++ /dev/null	(date 0)
+@@ -1,8 +0,0 @@
+-package pe.com.cma.apiaccess.repository;
+-
+-import org.springframework.data.repository.CrudRepository;
+-import org.springframework.stereotype.Repository;
+-import pe.com.cma.apiaccess.dao.model.Client;
+-
+-public interface lientRepository extends CrudRepository<Client, Long> {
+-}

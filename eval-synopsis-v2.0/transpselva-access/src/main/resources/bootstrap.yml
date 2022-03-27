@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: transpselva-access
+  profiles:
+    active: master
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
